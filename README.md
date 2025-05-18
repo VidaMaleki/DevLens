@@ -1,71 +1,82 @@
-# devlens README
+# DevLens
 
-This is the README for your extension "devlens". After writing up a brief description, we recommend including the following sections.
+**DevLens** is an AI-powered VS Code extension that helps you understand unfamiliar codebases faster. Powered by OpenAI's GPT-4o, DevLens can summarize files and soon will help you find where specific functionality is implemented.
 
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+![DevLens Logo](https://github.com/VidaMaleki/DevLense/assets/DevLense.png)
 
 ---
 
-## Following extension guidelines
+## ✨ Features
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+- 🧠 **Ask DevLens**: Summarize the purpose and structure of any open file
+- 🔐 **Secure API Key Storage**: Uses VS Code SecretStorage — never exposes your OpenAI key
+- ⚡ Works locally inside VS Code with minimal setup
+- 🔜 **Coming Soon**: Ask DevLens about the entire codebase (e.g. “Where is login handled?”)
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+---
 
-## Working with Markdown
+## 📦 Installation
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+Once published on the Marketplace, you’ll be able to install directly from the VS Code Extensions panel.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+Until then, you can install manually:
 
-## For more information
+1. Clone this repo
+2. Run `npm install`
+3. Run `npm run compile`
+4. Press `F5` to open a new Extension Development Host window
+5. Open a code file and run `Ask DevLens` from the Command Palette (`Cmd/Ctrl + Shift + P`)
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+---
 
-**Enjoy!**
+## 🔐 Setup: API Key
+
+1. Open the Command Palette (`Cmd/Ctrl + Shift + P`)
+2. Run: `DevLens: Set or Update API Key`
+3. Paste your [OpenAI API Key](https://platform.openai.com/account/api-keys)
+4. DevLens will store it securely in your VS Code environment
+
+---
+
+## 💡 Usage
+
+- Open any `.ts`, `.js`, `.jsx`, `.tsx` file
+- Open the Command Palette → `Ask DevLens`
+- DevLens will summarize the file in a readable markdown format
+
+---
+
+## 🧪 Development
+
+Clone this repo and run:
+
+```bash
+npm install
+npm run watch
+```
+Then press F5 to launch the extension in a new window.
+
+## 🚀 Roadmap
+
+- [x] **File summarization**
+- [ ] **Codebase Q&A**: Ask about functionality across files
+- [ ] **Smart file selection and file limiting**
+- [ ] **Support for Python, Go, and Java**
+- [ ] **VS Code Settings UI for customizing DevLens behavior**
+
+---
+
+## 🙋‍♀️ Author
+
+**Vida Maleki**  
+🌐 [vidamaleki.com](https://vidamaleki.com) *(coming soon)*  
+💼 [LinkedIn]([https://www.linkedin.com/in/vida-maleki](https://www.linkedin.com/in/vida-ghorbannezhad-maleki-4082a4197/))  
+💻 [Portfolio](https://vida-maleki-portfolio.vercel.app/)  
+🐙 [GitHub](https://github.com/VidaMaleki)
+
+---
+
+## 📄 License
+
+[MIT License](./LICENSE)
+
