@@ -10,7 +10,7 @@
     "Other",
     "AI",
     "Programming Languages",
-    "Productivity"
+    "Education"
   ],
   "keywords": [
     "ai",
@@ -22,6 +22,10 @@
     "openai"
   ],
   "publisher": "vida-dev",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/VidaMaleki/DevLense"
+},
   "activationEvents": [
     "onCommand:devlens.askQuestion",
     "onCommand:devlens.setApiKey"
