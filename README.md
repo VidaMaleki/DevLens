@@ -2,7 +2,7 @@
 
 **DevLens** is an AI-powered VS Code extension that helps you understand unfamiliar codebases faster. Powered by OpenAI's GPT-4o, DevLens can summarize files and soon will help you find where specific functionality is implemented.
 
-![DevLens Logo](https://github.com/VidaMaleki/DevLense/assets/DevLense.png)
+![DevLens Logo](https://github.com/VidaMaleki/DevLense/blob/main/assets/DevLens.png)
 
 ---
 
