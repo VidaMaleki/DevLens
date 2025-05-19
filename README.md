@@ -1,6 +1,6 @@
 # DevLens
 
-![DevLens Logo](https://raw.githubusercontent.com/VidaMaleki/DevLense/main/assets/DevLens.png)
+![DevLens Logo](https://raw.githubusercontent.com/VidaMaleki/DevLens/main/assets/DevLens.png)
 
 [![DevLens in Marketplace](https://img.shields.io/visual-studio-marketplace/v/vida-dev.devlens.svg?label=DevLens&color=blue)](https://marketplace.visualstudio.com/items?itemName=vida-dev.devlens)
 
@@ -19,7 +19,7 @@ It helps you understand unfamiliar codebases faster by summarizing files directl
 - **Coming Soon**: Codebase-wide Q&A — “Where is login handled?”
 
 ---
-![First](https://raw.githubusercontent.com/VidaMaleki/DevLense/main/assets/view.png)
-![Second](https://raw.githubusercontent.com/VidaMaleki/DevLense/main/assets/ask_devlens.png)
-![Third](https://raw.githubusercontent.com/VidaMaleki/DevLense/main/assets/summary.png)
+![First](https://raw.githubusercontent.com/VidaMaleki/DevLens/main/assets/view.png)
+![Second](https://raw.githubusercontent.com/VidaMaleki/DevLens/main/assets/ask_devlens.png)
+![Third](https://raw.githubusercontent.com/VidaMaleki/DevLens/main/assets/summary.png)
 
